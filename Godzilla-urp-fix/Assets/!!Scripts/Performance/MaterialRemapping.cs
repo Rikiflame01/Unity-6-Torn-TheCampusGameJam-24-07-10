@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 
@@ -118,3 +119,4 @@ public class MaterialRemapping : EditorWindow
         EditorUtility.DisplayDialog("Material Remapping Complete", $"Remapped {remappedMaterials} materials in prefab '{prefab.name}'.", "OK");
     }
 }
+#endif

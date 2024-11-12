@@ -61,7 +61,6 @@ public class AddComponentsToChildren : MonoBehaviour
     void PlayBuildingDestructionSfx()
     {
         SFXManager.Instance.PlayAudioWithVolume("explosion", 1);
-        SFXManager.Instance.PlayAudioWithVolume("explosion", 1);
 
     }
 

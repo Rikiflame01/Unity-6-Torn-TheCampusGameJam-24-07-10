@@ -4,7 +4,7 @@ using System.Collections;
 public class TokyoTower : MonoBehaviour
 {
     public float checkInterval = 0.5f;
-    public float detectionRadius = 10.0f;
+    public float detectionRadius = 20.0f;
     private GameObject player;
     private IHealth healthComponent;
 
