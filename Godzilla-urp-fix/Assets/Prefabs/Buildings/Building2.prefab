@@ -58,12 +58,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -143,11 +146,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -227,11 +233,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -311,12 +320,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -396,11 +408,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -480,11 +495,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -564,11 +582,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -644,6 +665,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -811,11 +835,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -895,11 +922,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -979,11 +1009,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1063,11 +1096,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1147,11 +1183,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1231,11 +1270,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1315,11 +1357,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1399,11 +1444,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1483,10 +1531,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5354028657143720620, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: 4b3851e25d5102046a0f7a624ded7c42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1566,10 +1617,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1649,11 +1703,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1733,11 +1790,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1817,11 +1877,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1901,10 +1964,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1984,11 +2050,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2068,11 +2137,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2152,12 +2224,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2237,6 +2312,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2321,11 +2399,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2405,10 +2486,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2488,10 +2572,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2567,6 +2654,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2734,11 +2824,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2818,10 +2911,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2901,11 +2997,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2985,11 +3084,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3069,10 +3171,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3152,11 +3257,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3236,11 +3344,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3320,11 +3431,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3404,11 +3518,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3488,11 +3605,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3572,11 +3692,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3656,12 +3779,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3741,10 +3867,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3824,12 +3953,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -5354028657143720620, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
+  - {fileID: 2100000, guid: 4b3851e25d5102046a0f7a624ded7c42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3909,10 +4041,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5354028657143720620, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: 4b3851e25d5102046a0f7a624ded7c42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3992,11 +4127,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4076,11 +4214,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4156,6 +4297,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4323,13 +4467,16 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4409,11 +4556,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4493,11 +4643,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4577,11 +4730,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4661,10 +4817,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4744,11 +4903,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4828,11 +4990,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4912,6 +5077,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4998,11 +5166,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5082,11 +5253,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5166,11 +5340,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5250,10 +5427,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5333,11 +5513,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5417,11 +5600,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5501,11 +5687,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5585,11 +5774,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5669,12 +5861,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5754,11 +5949,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5838,11 +6036,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5922,11 +6123,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6006,11 +6210,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6090,11 +6297,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6174,11 +6384,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6258,11 +6471,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6342,11 +6558,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6426,11 +6645,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6510,11 +6732,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6594,11 +6819,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6678,6 +6906,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6762,11 +6993,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6842,6 +7076,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7009,11 +7246,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7458,11 +7698,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7542,11 +7785,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7626,10 +7872,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7705,6 +7954,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7872,11 +8124,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7956,12 +8211,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8041,11 +8299,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8121,6 +8382,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8288,11 +8552,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8372,12 +8639,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8457,11 +8727,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8541,11 +8814,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8625,12 +8901,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8710,12 +8989,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8795,11 +9077,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8879,11 +9164,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8963,11 +9251,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9047,10 +9338,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9130,11 +9424,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9214,12 +9511,15 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9299,10 +9599,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9382,11 +9685,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9466,11 +9772,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9550,11 +9859,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9634,11 +9946,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: -3879621958714992793, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 6447dc3ce2112dc4dae1bed331a3783c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9718,10 +10033,13 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9801,11 +10119,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9885,11 +10206,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9969,11 +10293,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 6432353559646004534, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 2780d8d672237fc4f9542c9696ba1d12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10053,11 +10380,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10137,11 +10467,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10221,11 +10554,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5243988174349660497, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
-  - {fileID: 3398073514908505954, guid: 5f0b71b1d28366049bc3acbfe98d2b0b, type: 3}
+  - {fileID: 2100000, guid: f761eb1f6bdc7c24bbfceb2f99bf55b8, type: 2}
+  - {fileID: 2100000, guid: 399e8e5f0f816fc49aa603a3e7f5a5c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
