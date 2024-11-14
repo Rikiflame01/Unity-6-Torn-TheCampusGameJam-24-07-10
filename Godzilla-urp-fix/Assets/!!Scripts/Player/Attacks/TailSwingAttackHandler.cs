@@ -52,7 +52,6 @@ public class TailSwingAttackHandler : MonoBehaviour
             EventsManager.Instance.TriggerTailAttackCooldown();
             Invoke("DeactivateTailSwing", 0.5f);
         }
-        Debug.Log ("Tail Swing Attack for " + gameObject.name);
     }
 
     void PositionTailSwingCollider()
