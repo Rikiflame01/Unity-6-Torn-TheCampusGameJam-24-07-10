@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 using UnityEngine.VFX;
 
 public class PlayerTwoMovement : MonoBehaviour
 {
+    public GameObject playerObject;
     public float moveSpeed = 5f;
     public Sprite[] idleSprites;
     public Sprite[] runningSprites;
@@ -193,7 +195,7 @@ void Update()
             currentSpriteIndex = 0;
             animationTimer = 0f;
             SFXManager.Instance.PlayAudioWithVolume("thud", 6f);
-            EventsManager.Instance.TriggerTailAttack();
+            EventsManager.Instance.TriggerTailAttack(playerObject);
         }
 
         if (Input.GetKeyDown(KeyCode.Period) && !headbuttAttackHandler.isOnCooldown && !isHeadbutting)
@@ -202,7 +204,7 @@ void Update()
             currentSpriteIndex = 0;
             animationTimer = 0f;
             SFXManager.Instance.PlayAudioWithVolume("thud", 6f);
-            EventsManager.Instance.TriggerHeadbutt();
+            EventsManager.Instance.TriggerHeadbutt(playerObject);
         }
     }
     if (isAerialAttackCharging)

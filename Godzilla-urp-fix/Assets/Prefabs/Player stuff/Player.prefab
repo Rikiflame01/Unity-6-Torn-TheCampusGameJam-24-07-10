@@ -547,6 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b994eeb794b44f944817e7ae9eb85a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObject: {fileID: 2649911208177720081}
   moveSpeed: 5
   idleSprites:
   - {fileID: 2049270169, guid: cd15ac9b1f893ee4c95ec445919acf1e, type: 3}
@@ -1278,6 +1279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc289d462b0d454496517d940369762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObject: {fileID: 2649911208177720081}
   headbuttColliderObject: {fileID: 1018225477134286546}
   headbuttCooldown: 1.5
   offsetRight: {x: 0.7, y: 0, z: 0}
@@ -1295,6 +1297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b907c1621afd6b48bf8fabf0013de77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObject: {fileID: 2649911208177720081}
   tailSwingColliderObject: {fileID: 8776919861973654235}
   tailSwingCooldown: 1.5
   offsetRight: {x: 0, y: -0.28, z: 0}

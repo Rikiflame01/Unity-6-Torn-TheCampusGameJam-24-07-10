@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class TailSwingAttackHandler : MonoBehaviour
 {
+    public GameObject playerObject;
     public GameObject tailSwingColliderObject;
     public float tailSwingCooldown = 1.5f;
     public Vector3 offsetRight;
@@ -10,6 +11,7 @@ public class TailSwingAttackHandler : MonoBehaviour
     private bool isOnCooldown;
     private float cooldownTimer;
     private SpriteRenderer spriteRenderer;
+
 
     void Start()
     {
@@ -21,7 +23,7 @@ public class TailSwingAttackHandler : MonoBehaviour
         cooldownTimer = 0f;
         spriteRenderer = GetComponent<SpriteRenderer>();
         EventsManager.Instance.OnTailAttack.AddListener(ActivateTailSwing);
-    }
+        }
 
     void Update()
     {
@@ -36,8 +38,12 @@ public class TailSwingAttackHandler : MonoBehaviour
         }
     }
 
-    void ActivateTailSwing(string eventName)
+    void ActivateTailSwing(GameObject gameObject)
     {
+        if (gameObject != playerObject)
+        {
+            return;
+        }
         if (!isOnCooldown && tailSwingColliderObject != null)
         {
             PositionTailSwingCollider();
@@ -46,6 +52,7 @@ public class TailSwingAttackHandler : MonoBehaviour
             EventsManager.Instance.TriggerTailAttackCooldown();
             Invoke("DeactivateTailSwing", 0.5f);
         }
+        Debug.Log ("Tail Swing Attack for " + gameObject.name);
     }
 
     void PositionTailSwingCollider()

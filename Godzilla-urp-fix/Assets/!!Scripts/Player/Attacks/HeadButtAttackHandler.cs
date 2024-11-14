@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class HeadbuttAttackHandler : MonoBehaviour
 {
+    public GameObject playerObject;
     public GameObject headbuttColliderObject;
     public float headbuttCooldown = 1.5f;
     public Vector3 offsetRight;
@@ -36,8 +37,12 @@ public class HeadbuttAttackHandler : MonoBehaviour
         }
     }
 
-    void ActivateHeadbutt(string eventName)
+    void ActivateHeadbutt(GameObject gameObject)
     {
+        if (gameObject != playerObject)
+        {
+            return;
+        }
         if (!isOnCooldown && headbuttColliderObject != null)
         {
             isOnCooldown = true;
@@ -45,7 +50,6 @@ public class HeadbuttAttackHandler : MonoBehaviour
 
             PositionHeadbuttCollider();
             Invoke("ActivateHeadbuttCollider", 0.1f);
-            Invoke("DeactivateHeadbutt", 0.5f);
         }
     }
 
@@ -54,19 +58,22 @@ public class HeadbuttAttackHandler : MonoBehaviour
         if (headbuttColliderObject != null)
         {
             headbuttColliderObject.SetActive(true);
+            Invoke("DeactivateHeadbutt", 0.5f);
         }
     }
 
-
-    void PositionHeadbuttCollider()
+    public void PositionHeadbuttCollider()
     {
+        Debug.Log("Positioning Headbutt Collider");
         if (spriteRenderer.flipX)
         {
             headbuttColliderObject.transform.localPosition = offsetLeft;
+            Debug.Log("Headbutt Attack Left");
         }
         else
         {
             headbuttColliderObject.transform.localPosition = offsetRight;
+            Debug.Log("Headbutt Attack Right");
         }
     }
 

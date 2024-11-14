@@ -3,6 +3,7 @@ using UnityEngine.VFX;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject playerObject;
     public float moveSpeed = 5f;
     public Sprite[] idleSprites;
     public Sprite[] runningSprites;
@@ -122,14 +123,22 @@ public class PlayerMovement : MonoBehaviour
             movement.z = Input.GetAxisRaw("Vertical");
             isRunning = movement != Vector3.zero;
 
-            if (movement.x < 0)
-            {
-                spriteRenderer.flipX = true;
-            }
-            else if (movement.x > 0)
-            {
-                spriteRenderer.flipX = false;
-            }
+    if (movement.x < 0)
+    {
+        spriteRenderer.flipX = true;
+        facingDirection = Vector3.left;
+        headbuttAttackHandler.PositionHeadbuttCollider();
+    }
+    else if (movement.x > 0)
+    {
+        spriteRenderer.flipX = false;
+        facingDirection = Vector3.right;
+        headbuttAttackHandler.PositionHeadbuttCollider();
+    }
+    else if (movement.z != 0)
+    {
+        facingDirection = new Vector3(0, 0, movement.z).normalized;
+    }
 
             if (Input.GetKeyDown(KeyCode.Space) && !dashAttackHandler.isDashing)
             {
@@ -196,7 +205,7 @@ public class PlayerMovement : MonoBehaviour
                 currentSpriteIndex = 0;
                 animationTimer = 0f;
                 SFXManager.Instance.PlayAudioWithVolume("thud", 6f);
-                EventsManager.Instance.TriggerTailAttack();
+                EventsManager.Instance.TriggerTailAttack(playerObject);
             }
 
             if (Input.GetMouseButtonDown(0) && !headbuttAttackHandler.isOnCooldown && !isHeadbutting)
@@ -205,7 +214,7 @@ public class PlayerMovement : MonoBehaviour
                 currentSpriteIndex = 0;
                 animationTimer = 0f;
                 SFXManager.Instance.PlayAudioWithVolume("thud", 6f);
-                EventsManager.Instance.TriggerHeadbutt();
+                EventsManager.Instance.TriggerHeadbutt(playerObject);
             }
         }
         if (isAerialAttackCharging)

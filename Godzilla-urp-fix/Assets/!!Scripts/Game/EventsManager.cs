@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -25,8 +26,8 @@ public class EventsManager : MonoBehaviour
 
     public ShakeEvent OnShakeEvent;
     public GameEvent OnChargeAttack;
-    public GameEvent OnTailAttack;
-    public GameEvent OnHeadbutt;
+    public UnityEvent<GameObject> OnTailAttack = new UnityEvent<GameObject>();
+    public UnityEvent<GameObject> OnHeadbutt = new UnityEvent<GameObject>();
     public GameEvent OnAerialAttack;
     public GameEvent OnDashAttack;
     public GameEvent OnPlayerHit;
@@ -86,14 +87,14 @@ public class EventsManager : MonoBehaviour
         OnChargeAttack?.Invoke("ChargeAttack");
     }
 
-    public void TriggerTailAttack()
+    public void TriggerTailAttack(GameObject gameObject)
     {
-        OnTailAttack?.Invoke("TailAttack");
+        OnTailAttack?.Invoke(gameObject);
     }
 
-    public void TriggerHeadbutt()
+    public void TriggerHeadbutt(GameObject gameObject)
     {
-        OnHeadbutt?.Invoke("Headbutt");
+        OnHeadbutt?.Invoke(gameObject);
     }
 
     public void TriggerPlayerHit()
