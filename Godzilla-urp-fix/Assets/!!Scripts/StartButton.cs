@@ -33,7 +33,7 @@ public class StartButton : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Period) && !isShaking)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.M) && !isShaking)
         {
             StartCoroutine(ShakeAnimation());
         }

@@ -17,7 +17,7 @@ public class MainMenuController : MonoBehaviour
             SFXManager.Instance.PlayT_RexAudio("trex");
             SFXManager.Instance.PlayAudioWithVolume("surge", 1.5f);
         }
-        if (Input.GetKeyDown(KeyCode.Period))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             StartCoroutine(PlayGifFasterAndTransition("GameSceneMultiPlayer"));
             SFXManager.Instance.PlayT_RexAudio("trex");
