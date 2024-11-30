@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/!Scenes/GameSceneMultiPlayer.unity
     guid: da7c534c6bb7cb34ba380c35bcd975d9
+  - enabled: 1
+    path: Assets/!Scenes/WaterLevel.unity
+    guid: 6ecf0bd0504f96844b0b3751d82789ed
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

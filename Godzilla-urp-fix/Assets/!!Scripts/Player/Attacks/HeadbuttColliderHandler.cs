@@ -56,6 +56,9 @@ public class HeadbuttColliderHandler : MonoBehaviour
                 case "JetEnemy1":
                     JetDamager(health, jetDamageAmount, collision);
                     break;
+                case "LightHouse":
+                    ApplyDamageAndHandleDestruction(health, buildingDamageAmount, collision);
+                    break;
                 default:
                     break;
             }

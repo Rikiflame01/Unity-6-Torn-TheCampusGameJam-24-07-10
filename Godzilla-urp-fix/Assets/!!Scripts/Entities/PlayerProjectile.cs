@@ -54,7 +54,10 @@ public class PlayerProjectile : MonoBehaviour
                     TankDamage(health, tankDamageAmount, other);
                     break;
                 case "Helicopter":
-                    // maybe some day
+                    HelicopterDamage(health, helicopterDamageAmount, other);
+                    break;
+                case "LightHouse":
+                    ApplyDamageAndHandleDestruction(health, buildingDamageAmount, other);
                     break;
                 default:
                     Debug.Log("Unhandled tag: " + collidedTag);
@@ -170,6 +173,11 @@ public class PlayerProjectile : MonoBehaviour
         {
             rb.AddForce(Vector3.up * upwardForce);
         }
+    }
+
+    private void HelicopterDamage(IHealth health, int damageAmount, Collider collider)
+    {
+        health.TakeDamage(damageAmount);
     }
 
     private void TankDamage(IHealth health, int damageAmount, Collider collider)

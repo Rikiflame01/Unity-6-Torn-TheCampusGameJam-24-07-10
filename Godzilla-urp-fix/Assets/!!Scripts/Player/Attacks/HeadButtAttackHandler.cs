@@ -64,16 +64,16 @@ public class HeadbuttAttackHandler : MonoBehaviour
 
     public void PositionHeadbuttCollider()
     {
-        Debug.Log("Positioning Headbutt Collider");
+        //Debug.Log("Positioning Headbutt Collider");
         if (spriteRenderer.flipX)
         {
             headbuttColliderObject.transform.localPosition = offsetLeft;
-            Debug.Log("Headbutt Attack Left");
+            //Debug.Log("Headbutt Attack Left");
         }
         else
         {
             headbuttColliderObject.transform.localPosition = offsetRight;
-            Debug.Log("Headbutt Attack Right");
+            //Debug.Log("Headbutt Attack Right");
         }
     }
 

@@ -1,7 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public interface IHealth
 {
@@ -13,6 +14,11 @@ public interface IHealth
 
 public class Health : MonoBehaviour, IHealth
 {
+
+        [Header("Loading UI")]
+    public GameObject loadingScreen;
+    public Slider progressBar;
+
     [SerializeField, Tooltip("The maximum health value for this object.")]
     private int maxHealth = 100;
 
@@ -104,7 +110,44 @@ public class Health : MonoBehaviour, IHealth
             EventsManager.Instance.TriggerShakeEvent("Large");
             Destroy(this.gameObject);
         }
+        if (this.gameObject.CompareTag("LightHouse"))
+        {
+            EventsManager.Instance.TriggerShakeEvent("Large");
+            StartCoroutine(NextMap());
+        }
         EventsManager.Instance.TriggerOnDiedEvent(objectId, gameObject.tag);
+    }
+
+    private IEnumerator NextMap()
+    {
+        yield return new WaitForSeconds(2);
+        if (SceneManager.GetActiveScene().name == "WaterLevel")
+        {
+            LoadSceneAsync("GameScene");
+        }
+        if (SceneManager.GetActiveScene().name == "WaterLevelMultiPlayer")
+        {
+           LoadSceneAsync("GameSceneMultiPlayer");
+        }
+    }
+
+    public void LoadSceneAsync(string sceneName)
+    {
+        StartCoroutine(LoadSceneAsyncCoroutine(sceneName));
+    }
+
+    private IEnumerator LoadSceneAsyncCoroutine(string sceneName)
+    {
+        loadingScreen.SetActive(true);
+
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            progressBar.value = progress;
+            yield return null;
+        }
     }
 
     public void HandleTankDeath()

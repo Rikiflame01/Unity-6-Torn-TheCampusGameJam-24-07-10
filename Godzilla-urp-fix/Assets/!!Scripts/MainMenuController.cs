@@ -13,7 +13,7 @@ public class MainMenuController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            StartCoroutine(PlayGifFasterAndTransition("GameScene"));
+            StartCoroutine(PlayGifFasterAndTransition("WaterLevel"));
             SFXManager.Instance.PlayT_RexAudio("trex");
             SFXManager.Instance.PlayAudioWithVolume("surge", 1.5f);
         }

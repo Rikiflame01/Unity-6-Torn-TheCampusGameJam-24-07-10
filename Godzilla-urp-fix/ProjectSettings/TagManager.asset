@@ -13,6 +13,7 @@ TagManager:
   - HelicopterEnemy1
   - EnemyTargetPoint
   - JetBomb
+  - LightHouse
   layers:
   - Default
   - TransparentFX

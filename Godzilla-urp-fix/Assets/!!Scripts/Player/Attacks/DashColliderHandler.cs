@@ -60,6 +60,9 @@ public class DashColliderHandler : MonoBehaviour
                 case "JetEnemy1":
                     JetDamage(health, jetDamageAmount, collision);
                     break;
+                case "LightHouse":
+                    ApplyDamageAndHandleDestruction(health, buildingDamageAmount, collision);
+                    break;
                 default:
                     break;
             }
