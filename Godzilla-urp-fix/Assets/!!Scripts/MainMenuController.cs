@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour
 {
     public ButtonManager buttonManager;
-    public GifPlayer gifPlayer;
+        
     public float fastSpeedDuration = 2f;
     public float fadeDuration = 1f; 
 
@@ -19,7 +19,7 @@ public class MainMenuController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.M))
         {
-            StartCoroutine(PlayGifFasterAndTransition("GameSceneMultiPlayer"));
+            StartCoroutine(PlayGifFasterAndTransition("WaterLevelMultiPlayer"));
             SFXManager.Instance.PlayT_RexAudio("trex");
             SFXManager.Instance.PlayAudioWithVolume("surge", 1.5f);
         }
@@ -27,8 +27,6 @@ public class MainMenuController : MonoBehaviour
 
     private IEnumerator PlayGifFasterAndTransition(string gameScene)
     {
-        gifPlayer.SetFrameRate(0.1f);
-
         yield return new WaitForSeconds(fastSpeedDuration);
 
 

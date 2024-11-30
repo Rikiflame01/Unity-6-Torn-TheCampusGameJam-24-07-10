@@ -233,6 +233,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea81f739b76494b4d8d7ec89a9851ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingScreen: {fileID: 0}
+  progressBar: {fileID: 0}
   maxHealth: 100
   OnHealthChanged:
     m_PersistentCalls:

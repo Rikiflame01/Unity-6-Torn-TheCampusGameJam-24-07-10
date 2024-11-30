@@ -6526,7 +6526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonManager: {fileID: 450521276}
-  gifPlayer: {fileID: 1726300268}
+  gifPlayer: {fileID: 0}
   fastSpeedDuration: 2
   fadeDuration: 1
 --- !u!4 &1392222879
@@ -8415,7 +8415,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1726300265}
   - component: {fileID: 1726300267}
-  - component: {fileID: 1726300268}
   m_Layer: 5
   m_Name: pnlMainMenu
   m_TagString: Untagged
@@ -8452,28 +8451,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726300264}
   m_CullTransparentMesh: 1
---- !u!114 &1726300268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726300264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917dc51c30eff4095549d951d35ce6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageComponent: {fileID: 0}
-  baseImage: {fileID: 21300000, guid: 6d97cb20ae92bdd42b1b1288aeeb4d83, type: 3}
-  frames:
-  - {fileID: 21300000, guid: 5725091285cfacb40859919b74fe6ab8, type: 3}
-  - {fileID: 21300000, guid: c5d3316cc88856a429863a5d6629feb3, type: 3}
-  - {fileID: 21300000, guid: 88ddbc83279ece64f9374df8c8960787, type: 3}
-  - {fileID: 21300000, guid: ee7e4883eede59e46ad0eac64a992b1c, type: 3}
-  - {fileID: 21300000, guid: f7fc2696e4a4f4c49aa2e290d2ca530b, type: 3}
-  - {fileID: 21300000, guid: 631d511be9e3a8741a93c3d3bcbfa292, type: 3}
-  frameRate: 0.5
 --- !u!1 &1728190025
 GameObject:
   m_ObjectHideFlags: 0
