@@ -92,6 +92,12 @@ public class PlayerTwoMovement : MonoBehaviour
 
 void Update()
 {
+    if (rb.position.y > 1.325834f)
+    {
+        Vector3 clampedPosition = rb.position;
+        clampedPosition.y = 1.325834f;
+        rb.MovePosition(clampedPosition);
+    }
     if (movement.x < 0)
     {
         spriteRenderer.flipX = true;
