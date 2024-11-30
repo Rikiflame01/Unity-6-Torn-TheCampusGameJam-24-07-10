@@ -59,6 +59,9 @@ public class PlayerProjectile : MonoBehaviour
                 case "LightHouse":
                     ApplyDamageAndHandleDestruction(health, buildingDamageAmount, other);
                     break;
+                case "TokyoTower":
+                    ApplyDamageAndHandleDestruction(health, buildingDamageAmount, other);
+                    break;
                 default:
                     Debug.Log("Unhandled tag: " + collidedTag);
                     break;

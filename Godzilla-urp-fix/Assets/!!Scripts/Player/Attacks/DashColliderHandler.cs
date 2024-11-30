@@ -63,6 +63,9 @@ public class DashColliderHandler : MonoBehaviour
                 case "LightHouse":
                     ApplyDamageAndHandleDestruction(health, buildingDamageAmount, collision);
                     break;
+                case "TokyoTower":
+                    ApplyDamageAndHandleDestruction(health, buildingDamageAmount, collision);
+                    break;
                 default:
                     break;
             }

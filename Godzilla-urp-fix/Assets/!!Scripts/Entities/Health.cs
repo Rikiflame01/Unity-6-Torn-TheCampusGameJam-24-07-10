@@ -115,6 +115,10 @@ public class Health : MonoBehaviour, IHealth
             EventsManager.Instance.TriggerShakeEvent("Large");
             StartCoroutine(NextMap());
         }
+        if (this.gameObject.CompareTag("TokyoTower"))
+        {   
+            EventsManager.Instance.TriggerPlayerWin();
+        }
         EventsManager.Instance.TriggerOnDiedEvent(objectId, gameObject.tag);
     }
 
