@@ -24,7 +24,6 @@ public class HelicopterController : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
         rb.useGravity = false;
 
@@ -36,7 +35,9 @@ public class HelicopterController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!isRecovering && !isMovementDisabled)
+        UpdateClosestPlayer();
+
+        if (!isRecovering && !isMovementDisabled && player != null)
         {
             Hover();
             MoveTowardsPlayer();
@@ -53,59 +54,53 @@ public class HelicopterController : MonoBehaviour
 
     void MoveTowardsPlayer()
     {
-        if (player != null)
+        float distanceToPlayerX = Mathf.Abs(transform.position.x - player.position.x);
+        float distanceToPlayerZ = Mathf.Abs(transform.position.z - player.position.z);
+
+        Vector3 moveDirection = Vector3.zero;
+
+        if (distanceToPlayerX > minDistanceToPlayerX)
         {
-            float distanceToPlayerX = Mathf.Abs(transform.position.x - player.position.x);
-            float distanceToPlayerZ = Mathf.Abs(transform.position.z - player.position.z);
+            float moveDirectionX = Mathf.Sign(player.position.x - transform.position.x);
+            moveDirection.x = moveDirectionX;
+        }
 
-            Vector3 moveDirection = Vector3.zero;
+        if (distanceToPlayerZ > minDistanceToPlayerZ)
+        {
+            float moveDirectionZ = Mathf.Sign(player.position.z - transform.position.z);
+            moveDirection.z = moveDirectionZ;
+        }
 
-            if (distanceToPlayerX > minDistanceToPlayerX)
-            {
-                float moveDirectionX = Mathf.Sign(player.position.x - transform.position.x);
-                moveDirection.x = moveDirectionX;
-            }
-
-            if (distanceToPlayerZ > minDistanceToPlayerZ)
-            {
-                float moveDirectionZ = Mathf.Sign(player.position.z - transform.position.z);
-                moveDirection.z = moveDirectionZ;
-            }
-
-            if (moveDirection != Vector3.zero)
-            {
-                Vector3 move = moveDirection.normalized * moveSpeed * Time.fixedDeltaTime;
-                rb.MovePosition(transform.position + move);
-            }
+        if (moveDirection != Vector3.zero)
+        {
+            Vector3 move = moveDirection.normalized * moveSpeed * Time.fixedDeltaTime;
+            rb.MovePosition(transform.position + move);
         }
     }
 
     void LookAtPlayer()
     {
-        if (player != null)
-        {
-            Vector3 direction = (player.position - transform.position).normalized;
-            direction.y = 0;
-            Quaternion lookRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.fixedDeltaTime * moveSpeed);
-        }
+        Vector3 direction = (player.position - transform.position).normalized;
+        direction.y = 0;
+        Quaternion lookRotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.fixedDeltaTime * moveSpeed);
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if (!isRecovering && !isMovementDisabled)
         {
-            // Debug.Log("Helicopter collided with " + collision.gameObject.name);
             StartCoroutine(RecoveryRoutine());
         }
     }
 
     private System.Collections.IEnumerator RecoveryRoutine()
     {
-        if (isMovementDisabled == true)
+        if (isMovementDisabled)
         {
             yield return null;
         }
+
         isRecovering = true;
         SetCollidersEnabled(false);
 
@@ -158,5 +153,31 @@ public class HelicopterController : MonoBehaviour
         yield return new WaitForSeconds(seconds);
         isMovementDisabled = false;
         rb.useGravity = false;
+    }
+
+    private void UpdateClosestPlayer()
+    {
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+
+        if (players.Length == 0)
+        {
+            player = null;
+            return;
+        }
+
+        float closestDistance = Mathf.Infinity;
+        Transform closestPlayer = null;
+
+        foreach (GameObject playerObject in players)
+        {
+            float distance = Vector3.Distance(transform.position, playerObject.transform.position);
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestPlayer = playerObject.transform;
+            }
+        }
+
+        player = closestPlayer;
     }
 }

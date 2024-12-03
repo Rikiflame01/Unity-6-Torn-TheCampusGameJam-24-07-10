@@ -3,9 +3,6 @@ using UnityEngine.AI;
 
 public class ProjectileTankEnemy : MonoBehaviour
 {
-    [SerializeField, Tooltip("The player target.")]
-    private Transform player;
-
     [SerializeField, Tooltip("The navmesh agent for movement.")]
     private NavMeshAgent agent;
 
@@ -24,20 +21,11 @@ public class ProjectileTankEnemy : MonoBehaviour
     [SerializeField, Tooltip("The force applied to the projectile.")]
     private float projectileForce = 10f;
 
+    private Transform player;
     private float fireCooldown;
 
     private void Awake()
     {
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-        if (playerObject != null)
-        {
-            player = playerObject.transform;
-        }
-        else
-        {
-            Debug.LogWarning("Player tag not found. Please ensure a GameObject with the 'Player' tag exists in the scene.");
-        }
-
         if (agent == null)
         {
             agent = GetComponent<NavMeshAgent>();
@@ -51,6 +39,7 @@ public class ProjectileTankEnemy : MonoBehaviour
 
     private void Update()
     {
+        UpdateClosestPlayer();
         if (player != null)
         {
             MoveTowardsPlayer();
@@ -59,21 +48,41 @@ public class ProjectileTankEnemy : MonoBehaviour
         HandleFiring();
     }
 
+    /// <summary>
+    /// Updates the closest player as the target.
+    /// </summary>
+    private void UpdateClosestPlayer()
+    {
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        if (players.Length == 0)
+        {
+            player = null;
+            return;
+        }
+
+        float closestDistance = Mathf.Infinity;
+        Transform closestPlayer = null;
+
+        foreach (GameObject playerObject in players)
+        {
+            float distance = Vector3.Distance(transform.position, playerObject.transform.position);
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestPlayer = playerObject.transform;
+            }
+        }
+
+        player = closestPlayer;
+    }
+
+    /// <summary>
+    /// Moves the enemy towards the player, maintaining the specified distance.
+    /// </summary>
     private void MoveTowardsPlayer()
     {
-        if (agent == null)
+        if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh)
         {
-            return;
-        }
-
-        if (!agent.isActiveAndEnabled)
-        {
-            return;
-        }
-
-        if (!agent.isOnNavMesh)
-        {
-            Destroy(this);
             return;
         }
 
@@ -89,17 +98,23 @@ public class ProjectileTankEnemy : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Handles firing projectiles at intervals.
+    /// </summary>
     private void HandleFiring()
     {
         fireCooldown -= Time.deltaTime;
 
-        if (fireCooldown <= 0f)
+        if (fireCooldown <= 0f && player != null)
         {
             FireProjectile();
             fireCooldown = fireRate;
         }
     }
 
+    /// <summary>
+    /// Fires a projectile from the fire point.
+    /// </summary>
     private void FireProjectile()
     {
         if (projectilePrefab != null && firePoint != null)

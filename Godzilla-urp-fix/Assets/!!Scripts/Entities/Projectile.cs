@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             SFXManager.Instance.PlayAudioWithVolume("Hitmark", 2.5f);
             IHealth health = collision.gameObject.GetComponent<IHealth>();
