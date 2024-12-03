@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -2825741595987310679}
   - component: {fileID: -4313766263605037796}
   - component: {fileID: 5768035157073067136}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: TempLaserBeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,6 +101,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

@@ -27,6 +27,7 @@ public class PlayerVisibilityHandler : MonoBehaviour
 
     void Update()
     {
+        if (Camera.main == null) return;
         RaycastHit hit;
         Vector3 cameraPosition = Camera.main.transform.position;
         Vector3 playerPosition = transform.position;

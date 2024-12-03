@@ -6,6 +6,8 @@ using TMPro;
 public class ImageSequencePlayer : MonoBehaviour
 {
     [Header("Settings")]
+
+    public CanvasGroup canvasGroup;
     public Image displayImage;          
     public Sprite[] imageArray;         
     public int imagesPerSet = 3;        
@@ -17,6 +19,7 @@ public class ImageSequencePlayer : MonoBehaviour
 
     void Start()
     {
+
         if (imageArray.Length > 0 && displayImage != null)
         {
             StartCoroutine(PlayImageSequence());
@@ -29,6 +32,8 @@ public class ImageSequencePlayer : MonoBehaviour
 
     private IEnumerator PlayImageSequence()
     {
+        yield return new WaitForSeconds(5f);
+        canvasGroup.alpha = 1f;
         while (isPlaying)
         {
             for (int i = 0; i < imagesPerSet; i++)
