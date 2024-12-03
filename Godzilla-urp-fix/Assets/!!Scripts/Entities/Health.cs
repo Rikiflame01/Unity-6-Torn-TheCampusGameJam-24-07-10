@@ -50,7 +50,7 @@ public class Health : MonoBehaviour, IHealth
 
         OnHealthChanged.Invoke(currentHealth);
 
-        if (this.gameObject.CompareTag("Player"))
+        if (this.gameObject.name == "Player")
         {
             EventsManager.Instance.TriggerPlayerHit();
             EventsManager.Instance.TriggerPlayerHealthChanged(currentHealth, maxHealth);
@@ -58,6 +58,16 @@ public class Health : MonoBehaviour, IHealth
             if (currentHealth <= 0)
             {
                 EventsManager.Instance.TriggerPlayerDead();
+            }
+        }
+        if (this.gameObject.name == "Player 2")
+        {
+            EventsManager.Instance.TriggerPlayer2Hit();
+            EventsManager.Instance.TriggerPlayer2HealthChanged(currentHealth, maxHealth);
+
+            if (currentHealth <= 0)
+            {
+                EventsManager.Instance.Trigger2PlayerDead();
             }
         }
 

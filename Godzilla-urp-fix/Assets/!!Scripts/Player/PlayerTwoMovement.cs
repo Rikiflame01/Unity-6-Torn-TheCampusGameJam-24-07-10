@@ -86,8 +86,8 @@ public class PlayerTwoMovement : MonoBehaviour
         chargeTimer = 0f;
         isHoldingSprite = false;
 
-        EventsManager.Instance.OnPlayerHit.AddListener(OnPlayerHit);
-        EventsManager.Instance.OnPlayerDead.AddListener(OnPlayerDead);
+        EventsManager.Instance.OnPlayer2Hit.AddListener(OnPlayerHit);
+        EventsManager.Instance.OnPlayer2Dead.AddListener(OnPlayerDead);
     }
 
 void Update()

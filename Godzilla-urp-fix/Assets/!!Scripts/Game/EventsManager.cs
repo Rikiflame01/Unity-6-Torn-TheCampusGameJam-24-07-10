@@ -31,13 +31,16 @@ public class EventsManager : MonoBehaviour
     public GameEvent OnAerialAttack;
     public GameEvent OnDashAttack;
     public GameEvent OnPlayerHit;
+    public GameEvent OnPlayer2Hit;
     public GameEvent OnPlayerDead;
+    public GameEvent OnPlayer2Dead;
     public GameEvent OnWinEvent;
     public GameEvent OnPlayerWarning;
     public GameEvent OnPlayerTriggerJetWarning;
     public GameEvent OnPlayerTriggerJetBombDrop;
 
     public HealthChangedEvent OnHealthChanged;
+    public HealthChangedEvent OnP2HealthChanged;
 
     private void Awake()
     {
@@ -51,6 +54,8 @@ public class EventsManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 
     public void TriggerTailAttackCooldown()
     {
@@ -101,12 +106,21 @@ public class EventsManager : MonoBehaviour
     {
         OnPlayerHit?.Invoke("PlayerHit");
     }
+    
+    public void TriggerPlayer2Hit()
+    {
+        OnPlayer2Hit?.Invoke("Player2Hit");
+    }
 
     public void TriggerPlayerDead()
     {
         OnPlayerDead?.Invoke("PlayerDead");
     }
 
+    public void Trigger2PlayerDead()
+    {
+        OnPlayer2Dead?.Invoke("Player2Dead");
+    }
     public void TriggerPlayerWin()
     {
         OnWinEvent?.Invoke("PlayerWin");
@@ -115,6 +129,11 @@ public class EventsManager : MonoBehaviour
     public void TriggerPlayerHealthChanged(int currentHealth, int maxHealth)
     {
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
+    }
+
+    public void TriggerPlayer2HealthChanged(int currentHealth, int maxHealth)
+    {
+        OnP2HealthChanged?.Invoke(currentHealth, maxHealth);
     }
     public void TriggerOnDiedEvent(string objectId, string objectTag)
     {
