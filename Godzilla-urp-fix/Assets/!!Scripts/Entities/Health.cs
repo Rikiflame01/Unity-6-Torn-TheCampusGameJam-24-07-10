@@ -15,7 +15,7 @@ public interface IHealth
 public class Health : MonoBehaviour, IHealth
 {
 
-        [Header("Loading UI")]
+    [Header("Loading UI")]
     public GameObject loadingScreen;
     public Slider progressBar;
 

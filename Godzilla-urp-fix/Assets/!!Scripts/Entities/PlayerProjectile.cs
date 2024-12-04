@@ -185,6 +185,11 @@ public class PlayerProjectile : MonoBehaviour
 
     private void TankDamage(IHealth health, int damageAmount, Collider collider)
     {
+        AddComponentsToChildren addComponents = collider.gameObject.GetComponent<AddComponentsToChildren>();
+        addComponents.ApplyStage1();
+        addComponents.ApplyStage2();
+        addComponents.ApplyStage3();
+        ApplyUpwardForce(collider);
         health.TakeDamage(damageAmount);
     }
 

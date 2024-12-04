@@ -165,6 +165,11 @@ public class HeadbuttColliderHandler : MonoBehaviour
 
     private void TankDamage(IHealth health, int damageAmount, Collision collision)
     {
+        AddComponentsToChildren addComponents = collision.gameObject.GetComponent<AddComponentsToChildren>();
+        addComponents.ApplyStage1();
+        addComponents.ApplyStage2();
+        addComponents.ApplyStage3();
+        ApplyUpwardForce(collision);
         health.TakeDamage(damageAmount);
     }
 

@@ -24,6 +24,10 @@ public class TailSwingColliderHandler : MonoBehaviour
             if (health != null)
             {
                 health.TakeDamage(tankDamageAmount);
+                AddComponentsToChildren addComponents = collision.gameObject.GetComponent<AddComponentsToChildren>();
+                addComponents.ApplyStage1();
+                addComponents.ApplyStage2();
+                addComponents.ApplyStage3();
                 ApplyUpwardForce(collision);
             }
         }
